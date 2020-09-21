@@ -1,17 +1,19 @@
 
-# Accessing Docker Image from IBM Container Registry for an application.
+# An application using Docker Image from IBM Container Registry.
 
-This cpro application is deployed in an OCP cluster in an account (IBM Gsi Labs).
+An application image is available in IBM container Registry.
 
-This application is going to use image from IBM container Registry which is deployed in another account (IBM JeyaGandhi).
+This application is going to be deployed in OCP cluster residing in different IBM cloud account.
+
+Still the application is able to access the image.
 
 ### 1. Create Container Registry
 
-Refer : [Create Container Registry](01-create-container-registry) 
+Refer : [Create Container Registry](../01-create-container-registry) 
 
 ### 2. Push Image to Registry
 
-Refer : [Push Image to Registry](02-push-image-to-registry) 
+Refer : [Push Image to Registry](../02-push-image-to-registry) 
 
 ### 3. App Configuration for accessing Container registry 
 
@@ -25,7 +27,7 @@ Refer : [Push Image to Registry](02-push-image-to-registry)
 
 ### 4. Install the app
 
-We are going to install this app in OCP cluster residing in different account, not in the same account where container registry is there.
+Install this app in OCP cluster residing in different account, not in the same account where container registry is there.
 
 1. Goto to the folder `install`
 
