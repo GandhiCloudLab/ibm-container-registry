@@ -3,11 +3,11 @@
 
 Create Registry namespaces and expose the API Keys to acess the registry by using the below steps.
 
-### 1. Create Registry
+### 1. Create Registry Namespace
 
 Create Registry namespace in `Tokyo` region.
 
-Note the registry is created in an account called `IBM-JeyaGandhi`
+Note the registry is created in an account called `IBM-JeyaGandhi`.
 
 <img src="images/01-create-registry-ns-1.png" >
 <img src="images/02-create-registry-ns-2.png" >

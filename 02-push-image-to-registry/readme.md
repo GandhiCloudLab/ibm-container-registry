@@ -1,9 +1,9 @@
 
 # Push Image to IBM Container Registry 
 
-Images can be pushed to container registry in many ways.
+Images can be pushed to container registry in many ways. Lets follow this way for now.
 
-### 1. Push image via Docker Push
+### Push image via Docker Push
 
 #### Login into ibmcloud and docker.
 
@@ -12,7 +12,7 @@ ibmcloud login --sso
 ibmcloud cr login
 docker login -u iamapikey -p hHRW4wasdfasdfadsfadsfadsfadsfadsfUh jp.icr.io
 ```
-Here we are using APIs key create in the previous steps to login.
+Here we are using APIs key created in the previous steps to login.
 
 ####  Push the image to the container registry using docker.
 
@@ -24,6 +24,6 @@ docker push jp.icr.io/gan-acc-registry-ns-02/cpro-bankweb
 
 ####  images
 
-Here is the registry images available as of now.
+Here are images available in the registry as of now.
 
 <img src="images/42-registry-images-2.png" >
