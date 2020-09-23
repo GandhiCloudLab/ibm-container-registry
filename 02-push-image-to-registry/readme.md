@@ -24,6 +24,6 @@ docker push jp.icr.io/gan-acc-registry-ns-02/cpro-bankweb
 
 ####  images
 
-Here are images available in the registry as of now.
+Highlighted the newly created images available in the registry .
 
 <img src="images/42-registry-images-2.png" >
